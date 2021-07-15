@@ -24,8 +24,9 @@ main {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-areas:
-        "daniel daniel jonathan kira"
-        "jeanette patrick patrick kira";
+    "daniel daniel jonathan kira"
+    "jeanette patrick patrick kira";
+    
     gap: 3rem;
 }
 
@@ -94,19 +95,19 @@ p{
 }
 
 .jonathan{
-    grid-area:jonathan;
+    grid-area: jonathan;
     background-color: hsl(217, 19%, 35%);
     color:white;
 }
 
 .jeanette{
-    grid-area:jeanette;
+    grid-area: jeanette;
     background-color: hsl(0, 0%, 100%);
     color:hsl(217, 19%, 35%);
 }
 
 .patrick{
-    grid-area:patrick;
+    grid-area: patrick;
     background-color: hsl(219, 29%, 14%);
     color:white;
 }
@@ -118,7 +119,7 @@ p{
 }
 
 .kira{
-    grid-area:kira;
+    grid-area: kira;
     background-color: hsl(0, 0%, 100%);
     color:hsl(217, 19%, 35%);
 }
